@@ -14,7 +14,7 @@ class TeamController extends Controller
      */
     public function index()
     {
-        throw new \Exception('Niet geïmplementeerd - lijst van teams kan nog niet getoond worden.');
+        return view('teams/index');
     }
 
     /**
